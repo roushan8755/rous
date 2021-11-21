@@ -1,0 +1,1 @@
+export const FRIENDLIST = 'UPDATE_FRIEND_LIST';

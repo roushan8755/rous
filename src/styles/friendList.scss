@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-family: 'Roboto','sans-serif';
+
+
+    .friend--list--wrapper{
+        width: 35%;
+        // height:300px;
+        background:#fff;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+
+        .header--txt{
+            color:#202020;
+            font-weight: 600;
+            padding: 6px 20px;
+            background:#eee;
+            font-size: 18px;
+        }
+
+        .input--wrapper{
+           width:100%; 
+           position: relative;
+           border-bottom:1px solid #ddd;
+           background: #fff;
+           box-shadow: 0 0 3px rgba(0,0,0,0.2);
+
+           .search--icon{
+               position: absolute;
+               top: 13px;
+               left: 15px;
+           }
+        }
+
+        .friend--wrapper{
+           display: flex; 
+           background: #fff;
+           box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+           padding: 10px 20px;
+           border-bottom: 1px solid #ddd;
+           
+           .left--part{
+              width:60%;
+              
+              div{
+                  &:first-child{
+                      color:#202020;
+                      font-size: 16px;
+                      padding-bottom: 5px;
+                      font-weight: 600;
+                  }
+
+                  &:last-child{
+                    color:#777;
+                    font-size: 14px;
+                }
+              }
+           }
+           .right--part{
+               display: flex;
+               justify-content: end;
+               width:40%;
+
+               .star{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  background:#fff;
+                  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+                  margin-right: 20px;
+                  cursor: pointer;
+                  padding: 5px 15px;
+                  border: 1px solid #ddd;
+                  border-radius: 4px;
+
+               }
+
+               .delete{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background:#fff;
+                box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+                cursor: pointer;
+                padding: 5px 15px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+               }
+           }
+        }
+
+    }
+}
