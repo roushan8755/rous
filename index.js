@@ -18,6 +18,9 @@ const getData = async () => {
     }
 
 
-    // console.log(res);
+
 }
 getData();
+
+
+// this is a demo text...
